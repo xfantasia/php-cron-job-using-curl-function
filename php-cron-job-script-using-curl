@@ -11,4 +11,8 @@ curl_exec($ch);
 curl_close($ch);
 fclose($fp);
 
+//CRON JOB LINUX COMMAND
+//The name of this page will be 'cron_job_initiator_script.php'
+//cd /home/wealthcr/site.com; /usr/local/bin/php -q cron_job_initiator_script.php
+
 ?>
