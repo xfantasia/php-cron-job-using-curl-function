@@ -2,7 +2,7 @@
 
 //RUNS THE PHP SCRIPT IN CURL $ch VARIABLE
 $ch = curl_init("https://site.com/seg1/cron-job-script");
-$fp = fopen("cron_log.txt","A");
+$fp = fopen("cron_log.txt","W");
 
 curl_setopt($ch, CURLOPT_FILE, $fp);
 curl_setopt($ch, CURLOPT_HEADER, 0);
